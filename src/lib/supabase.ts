@@ -1,7 +1,6 @@
 import { action, cache, redirect } from "@solidjs/router";
-import { format, isToday } from "date-fns";
+import { format } from "date-fns";
 import { marked } from "marked";
-import { storage } from "./db";
 import type { Note } from "./types";
 import { createClient } from '@supabase/supabase-js'
 
